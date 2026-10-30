@@ -1,5 +1,6 @@
 import Starfield from "@/components/Starfield";
 import Navbar from "@/components/Navbar";
+import SplashScreen from "@/components/SplashScreen";
 
 const SECTIONS = [
   { id: "home", title: "Home" },
@@ -12,6 +13,7 @@ const SECTIONS = [
 export default function Page() {
   return (
     <>
+      <SplashScreen />
       <Starfield />
       <Navbar />
 
