@@ -1,0 +1,24 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="50%" stop-color="#312E81"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+  <!-- Circle Base -->
+  <circle cx="48" cy="48" r="46" fill="url(#bgGrad)" stroke="url(#glowGrad)" stroke-width="2"/>
+  
+  <!-- Stylized Cosmic Head Silhouette -->
+  <circle cx="48" cy="36" r="16" fill="#E0E7FF" fill-opacity="0.9"/>
+  <!-- Stylized Cosmic Shoulders -->
+  <path d="M22 76C22 62.7452 32.7452 54 46 54H50C63.2548 54 74 62.7452 74 76V82C74 83.1046 73.1046 84 72 84H24C22.8954 84 22 83.1046 22 82V76Z" fill="#E0E7FF" fill-opacity="0.9"/>
+  
+  <!-- Subtle star sparkle in background -->
+  <circle cx="70" cy="24" r="1.5" fill="#FFFFFF"/>
+  <circle cx="26" cy="30" r="1" fill="#FFFFFF"/>
+</svg>
